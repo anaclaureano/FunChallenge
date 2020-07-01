@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "funChallenge": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "funChallenge"
+    }
+  },
+  "defaultProject": "funChallenge",
+  "cli": {
+    "analytics": "4e33868b-cdbf-41af-8ebd-3b72f8406386"
+  }
 }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>TimeLine - Fun Challenge</title>
+  </head>
+  <body>
+
+      <div class="row ">
+        <div class="main_button"> <button type="button" class="btn btn-danger btn-lg mt-2" (click)="addEntry()">Entry new content</button></div>
+      </div>
+      <div class="timeline">
+
+        <div *ngFor="let con of contentList.reverse()" [ngClass]="(con%2==0)? 'container right' : 'container left' ">
+          <div class="content">
+            <div class="content-head">{{ con }}</div>
+            <div class="content-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</div>
+            <button type="button" class="btn btn-outline-danger m-2 " style="  box-shadow: 5px 5px 0 crimson; -webkit-box-shadow: 2px 2px 0 crimson;-moz-box-shadow: 2px 2px 0 crimson;">BUTTON</button>
+          </div>
+        </div>
+
+    </div>
+
+
+
+  </body>
