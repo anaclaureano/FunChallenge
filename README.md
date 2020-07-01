@@ -1,27 +1,9 @@
-# FunChallenge
+ENGENEERING/THINKING PROCESS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
-## Development server
+I decided to generated a component ‘timeline’ to make more it reusable, and do the routes to facilitate do the applications in modules, in this component I will put a button with a function that increase one counter, and put every new counter in a a array, to make enter each component of my timeline through a ngFor, this content will be displayed in alternative sides, so I intend to create a condition for even and odd numbers presented in the array with the counted elements to decide if the class is right or left,  the most recent additions will be showed on the top of the line reversing the array. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+To created the structure, I used this base https://www.w3schools.com/howto/howto_css_timeline.asp, and change the CSS to match the given example. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
